@@ -1,1 +1,22 @@
-,nm .,m/
+
+
+ul {
+  list-style: none;
+}
+li{
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+
+.menu {
+  display: inline-block;
+  float: right;
+  margin: 32px;
+  
+
+}
+.menu-item {
+  padding-left: 16px;
+}
