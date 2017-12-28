@@ -10,13 +10,24 @@ a {
   text-decoration: none;
 }
 
-.menu {
-  display: inline-block;
-  float: right;
+.content {
   margin: 32px;
-  
-
+}
+.menu .nav {
+  /* display: inline-block; */
+  /* float: right; */
+  /* margin: 2%;
+  overflow: hidden; */
 }
 .menu-item {
   padding-left: 16px;
+  display: inline-block;
+
+
+}
+
+.intro {
+  overflow: hidden;
+
+
 }
