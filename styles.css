@@ -51,14 +51,16 @@ table {
 body {
   background-color: #f9f9f9;
   font-family: 'Lato', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  -o-transition:5s;
-  -ms-transition:5s;
-  -moz-transition:5s;
-  webkit-transition:5s;
-  transition:.2s;
+  -o-transition:200ms;
+  -ms-transition:200ms;
+  -moz-transition:200ms;
+  webkit-transition:200ms;
+  transition:200ms;
   text-decoration: none;
 }
 
@@ -89,6 +91,35 @@ h3 {
   color: #999;
   font-weight: 300;
 }
+
+.menu {
+  list-style: none;
+  display: block;
+}
+
+li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+
+
+.nav .nav-right .menu {
+  display: inline-block;
+  text-align: right;
+  float: right;
+  margin: 5%;
+  font-size: 1em;
+
+
+}
+.menu-item {
+  padding-left: 16px;
+  display: inline-block;
+}
+
+.content {margin: 0 10%;}
 
 .intro {
   max-width: 960px;
@@ -130,28 +161,50 @@ h3 {
 
 .project-small {
   margin-bottom: 10%;
+  -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.project-small:hover {
+  box-shadow: 0px 0px 15px #ddd;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
 }
 
 .post-item {
   height: 240px;
   padding: 2% 0%;
+  margin: 0 auto;
 }
+
 
 .post-item h2 {
   padding-left: 4% 0;
   padding-bottom: 4%;
   font-size: 1.5em;
-
 }
 
 .project-text {
   float: left;
   text-align: left;
   width: 40%;
-  background-color: #fff;
+  /* background-color: #fff; */
   height: 100%;
   padding: 4% 4%;
-  margin-right: 5%;
+
 }
 
 .project-text p {
@@ -166,39 +219,110 @@ h3 {
   width: 40%;
   max-height: 240px;
   overflow: hidden;
-  float: right;
+  float: left;
+  padding: 4% 4%;
 }
 
-ul {
-  list-style: none;
-}
-li{
-  display: inline-block;
-}
-a {
-  text-decoration: none;
-}
-
-.content {
-  margin: 32px;
-}
-.menu .nav {
-  /* display: inline-block;
-  float: right;
-  margin: 2%;
-  overflow: hidden; */
-}
-.menu-item {
-  padding-left: 16px;
-  display: inline-block;
+.clearfix::after {
+    content: "";
+    visibility: hidden;
+    clear: both;
+    display: block;
 }
 
 
 
-.project-list {
-  padding: auto;
-}
 
-.post-item {
-  /* margin-bottom: 32px; */
-}
+/* @media screen and (max-width: 640px) {
+
+
+  .intro {
+    padding: 4% 0%;
+    margin: 0 10%;
+  }
+
+  .intro h1 {
+    font-size: 1.5em;
+    line-height: 3.5em;
+  }
+
+  .project-list {
+    padding: 4% 0;
+    margin: 0 10%;
+  }
+
+  h3 {
+    font-size: 2.5em;
+  }
+
+
+  .post-item h2 {
+    font-size: 3em;
+  }
+
+  .project-text {
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+    padding: 8% 0;
+    margin-right: 0;
+  }
+
+  .project-text p {
+    line-height: 1.8;
+    font-size: 2.5em;
+    padding-bottom: 4%;
+  }
+
+
+
+    .project-pic {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      float: left;
+
+    }
+  }
+
+@media screen and (max-width: 800px) {
+
+  .intro h1 {
+    font-size: 2.5em;
+    line-height: 2em;
+  }
+
+  .post-item h2 {
+    padding-left: 4% 0;
+    padding-bottom: 4%;
+    font-size: 1.5em;
+
+  }
+
+  .project-text {
+    float: left;
+    width: 40%;
+    padding: 4% 4%;
+  }
+
+  .project-text p {
+    line-height: 1.8;
+    color: #333;
+    letter-spacing: .03em;
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+  .project-pic {
+    width: 40%;
+    max-height: 240px;
+    overflow: hidden;
+    float: left;
+  }
+
+
+
+
+
+
+} */
