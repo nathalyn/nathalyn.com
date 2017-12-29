@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*End of Reset*/
 
 body {
   background-color: #f9f9f9;
@@ -58,12 +58,111 @@ a {
   -ms-transition:5s;
   -moz-transition:5s;
   webkit-transition:5s;
-  transition:5s;
+  transition:.2s;
   text-decoration: none;
 }
 
+ a:hover {
+  color: #da3;
+}
+
 em {
-  font-style: oblique; 
+  font-style: oblique;
+}
+
+strong {
+  font-style: bold;
+}
+
+img {
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5 {
+  font-style: normal;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 0 0 1% 0;
+  color: #999;
+  font-weight: 300;
+}
+
+.intro {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 8% 0;
+}
+
+.intro h1 {
+  font-size: 1.5em;
+  text-align: left;
+  color: #222;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+/*This is for links within the intro*/
+/* .intro p a {
+  color: #012;
+} */
+
+
+/*This is for later styling of a h2 within the intro*/
+/* .intro h2 {
+  font-size: 1em;
+  text-align: left;
+  color: #333;
+  text-transform: capitalize;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  line-height: 1.5em;
+} */
+
+
+.project-list {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.post-item {
+  height: 240px;
+  padding: 2% 0%;
+}
+
+.post-item h2 {
+  padding-left: 4% 0;
+  padding-bottom: 4%;
+  font-size: 1.5em;
+
+
+}
+
+.project-text {
+  float: left;
+  text-align: left;
+  width: 320px;
+  background-color: #fff;
+  height: 100%;
+  padding: 4% 8%;
+}
+
+.project-text p {
+  line-height: 1.8;
+  color: #333;
+  letter-spacing: .03em;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.project-pic {
+  width: 320px;
+  height: 240px;
+  overflow: hidden;
+  float: right;
 }
 
 ul {
@@ -90,9 +189,7 @@ a {
   display: inline-block;
 }
 
-.intro {
-  overflow: hidden;
-}
+
 
 .project-list {
   padding: auto;
