@@ -243,6 +243,23 @@ a {
 
 }
 
+/*Styles for the case study page*/
+
+
+.case-study {
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+h1 .case-title {
+  font-size: 4em;
+  font-style: capitalize;
+  font-weight: 400;
+  
+}
+
+
+
 
 .clearfix::after {
     content: "";
