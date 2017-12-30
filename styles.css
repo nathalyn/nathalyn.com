@@ -224,6 +224,10 @@ li {
 }
 
 .project-small {
+  display: inline-block;
+  min-width: 240px;
+  padding: 2% 0%;
+  margin: 0 auto;
   margin-bottom: 10%;
   -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1);
@@ -249,8 +253,9 @@ li {
 }
 
 .post-item {
-  height: 240px;
-  padding: 2% 0%;
+  display: inline-block;
+  min-height: 240px;
+
   margin: 0 auto;
 }
 
@@ -394,7 +399,7 @@ hr {
 
 
 
-/* @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
 
 
   .intro {
@@ -403,8 +408,8 @@ hr {
   }
 
   .intro h1 {
-    font-size: 1.5em;
-    line-height: 3.5em;
+    font-size: 1em;
+    line-height: 1.5em;
   }
 
   .project-list {
@@ -413,12 +418,12 @@ hr {
   }
 
   h3 {
-    font-size: 2.5em;
+    font-size: 1em;
   }
 
 
-  .post-item h2 {
-    font-size: 3em;
+  .post-item .project-text h2 {
+    font-size: 1em;
   }
 
   .project-text {
@@ -427,12 +432,14 @@ hr {
     height: 100%;
     padding: 8% 0;
     margin-right: 0;
+    overflow: hidden;
   }
 
   .project-text p {
-    line-height: 1.8;
-    font-size: 2.5em;
+    line-height: 1.5;
+    font-size: .5em;
     padding-bottom: 4%;
+
   }
 
 
@@ -441,7 +448,7 @@ hr {
       width: 100%;
       max-height: 480px;
       overflow: hidden;
-      float: left;
+
 
     }
   }
@@ -449,8 +456,8 @@ hr {
 @media screen and (max-width: 800px) {
 
   .intro h1 {
-    font-size: 2.5em;
-    line-height: 2em;
+    font-size: 1em;
+    line-height: 1.5em;
   }
 
   .post-item h2 {
@@ -460,14 +467,20 @@ hr {
 
   }
 
+  .project-small {
+    display: inline-block;
+    min-width: 240px;
+  }
+
+
   .project-text {
     float: left;
-    width: 40%;
+    width: inherit;
     padding: 4% 4%;
   }
 
   .project-text p {
-    line-height: 1.8;
+    line-height: 1.5;
     color: #333;
     letter-spacing: .03em;
     font-size: 1em;
@@ -475,15 +488,18 @@ hr {
   }
 
   .project-pic {
-    width: 40%;
-    max-height: 240px;
-    overflow: hidden;
-    float: left;
+    width: inherit;
+    max-width: 100%;
+
+
   }
 
+ .post-img img {
+   min-width: 100%;
+ }
 
 
 
 
 
-} */
+}
