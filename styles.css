@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -52,11 +52,12 @@ body {
   background-color: #fcfcfc;
   font-family: 'Lato', sans-serif;
   color: #222;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: auto;
   text-rendering: optimizeLegibility;
-font-feature-settings: "kern";
-font-kerning: normal;
+  font-feature-settings: "kern";
+  font-kerning: normal;
+
 }
 
 a {
@@ -87,6 +88,7 @@ img {
 h1,h2,h3,h4,h5 {
   font-style: normal;
   color: #333;
+
 }
 
 h3 {
@@ -148,7 +150,8 @@ a {
   color: #333;
   letter-spacing: 0.01em;
   font-weight: 300;
-  line-height: 1.7em;
+  line-height: 1.6;
+
 }
 
 /*This is for links within the intro*/
@@ -168,7 +171,7 @@ a {
   line-height: 1.5em;
 } */
 
-.social .social-bar .social-icons {
+.social, .social-bar, .social-icons {
   display: inline-block;
   text-align: left;
   float: left;
