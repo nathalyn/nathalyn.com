@@ -226,7 +226,7 @@ li {
 .project-small {
   display: inline-block;
   min-width: 240px;
-  padding: 2% 0%;
+  /* padding: 2% 0%; */
   margin: 0 auto;
   margin-bottom: 10%;
   -webkit-transition: all 200ms ease-in;
@@ -254,7 +254,7 @@ li {
 
 .post-item {
   display: inline-block;
-  min-height: 240px;
+  min-height: 100%;
 
   margin: 0 auto;
 }
@@ -469,7 +469,7 @@ hr {
 
   .project-small {
     display: inline-block;
-    min-width: 240px;
+    min-width: 100%;
   }
 
 
@@ -490,6 +490,7 @@ hr {
   .project-pic {
     width: inherit;
     max-width: 100%;
+    /* min-width: 100%; */
 
 
   }
