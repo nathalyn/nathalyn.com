@@ -451,65 +451,17 @@ hr {
 
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
 
+	.nav .nav-right .menu {
+		padding: 30px 0;
+		margin: 0 0;
 
-  .intro {
-    padding: 4% 0%;
-    margin: 0 10%;
-  }
-
-  .intro h1 {
-    font-size: 1em;
-    line-height: 1.5em;
-  }
-
-  .project-list {
-    padding: 4% 0;
-    margin: 0 10%;
-  }
-
-  h3 {
-    font-size: 1em;
-  }
-
-
-  .post-item .project-text h2 {
-    font-size: 1em;
-  }
-
-  .project-text {
-    width: 100%;
-    background-color: #fff;
-    height: 100%;
-    padding: 8% 0;
-    margin-right: 0;
-    overflow: hidden;
-  }
-
-  .project-text p {
-    line-height: 1.5;
-    font-size: .5em;
-    padding-bottom: 4%;
-
-  }
-
-
-
-  .project-pic {
-      width: 100%;
-      max-height: 480px;
-      overflow: hidden;
-
-
-    }
-  }
-
-@media screen and (max-width: 800px) {
+	}
 
   .intro h1 {
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 1.2em;
+    line-height: 1.6em;
   }
 
   .post-item h2 {
@@ -552,7 +504,7 @@ hr {
  }
 
 
+ @media screen and (max-width: 600px) {
 
 
-
-}
+ }
