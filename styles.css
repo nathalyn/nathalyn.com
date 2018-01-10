@@ -313,7 +313,7 @@ li {
 }
 
 
-/******Styles for the case study page******/
+/******Styles for the case study pages******/
 
 
 .case-study {
@@ -355,19 +355,22 @@ li {
   padding-bottom: 4%;
 }
 
-.case-text ul {
+.case-text .bold {
+  font-weight: 400;
+}
 
-	list-style-type: circle;
-	padding-bottom: 5%;
+.case-text ul {
+	padding-bottom: 2%;
+	padding-left: 60px;
 }
 
 .case-text li {
-	font-weight: 400;
-	display: block;
-	text-indent: 60px;
 	list-style-type: circle;
+	font-weight: 300;
+	display: list-item;
 	line-height: 1.7;
-	font-size: 1em;
+	font-size: 1.2em;
+	color: #222;
 }
 
 hr {
