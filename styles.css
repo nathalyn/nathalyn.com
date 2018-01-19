@@ -434,6 +434,10 @@ hr {
     transform: scale(1.1);
 }
 
+.pic-too-big {
+	max-width: 600px;
+}
+
 /*------------ABOUT PAGE------------*/
 
 
@@ -488,6 +492,36 @@ hr {
 }
 
 
+/*
+ * Keyframes
+ */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+
+
+/**************** MEDIA QUERIES****************/
 
 
 
