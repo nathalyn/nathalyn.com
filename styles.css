@@ -370,20 +370,26 @@ li {
 }
 
 
+
+
 .case-img {
   max-width: 960px;
   padding-bottom: 5%;
+	margin: 0 auto;
 }
 
 
 .pic-too-big {
 	max-width: 600px;
+	display: block;
+	float: none;
+	margin: 0 auto;
 }
 
 
 .small-pic {
 	display: block;
-	max-width: 250px;
+	max-width: 300px;
 	float: none;
 	margin: 0 auto;
 }
