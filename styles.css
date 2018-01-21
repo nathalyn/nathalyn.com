@@ -418,6 +418,47 @@ li {
 }
 
 
+/**********For Image Galleries***********/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+	max-width: 100%;
+  /* padding: 0 4px; */
+
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: auto;
+  max-width: 45%;
+  margin-right: 5%;
+}
+
+.column img {
+  margin-bottom: 10%;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 740px) {
+  .column {
+    flex: auto;
+    max-width: 50%;
+		margin: 0;
+  }
+
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 739px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 hr {
     display: block;
     margin-top: 6em;
