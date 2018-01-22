@@ -291,7 +291,7 @@ li {
 
 .post-item h2 {
   padding-left: 4% 0;
-  padding-bottom: 4%;
+  padding-bottom: 1%;
   font-size: 1.5em;
 
 }
@@ -306,7 +306,7 @@ li {
   width: 40%;
   /* background-color: #fff; */
   /* height: 100%; */
-  padding: 4% 4%;
+  padding: 3% 3%;
 
 }
 
@@ -323,7 +323,8 @@ li {
   width: 40%;
   max-width: inherit;
   float: left;
-  padding: 4% 4%;
+  padding: 3% 3%;
+
 }
 
 .post-img {
