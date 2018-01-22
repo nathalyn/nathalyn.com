@@ -174,6 +174,12 @@ li {
 	font-weight: 400;
 	color: #222;
 }
+
+.intro a:hover {
+	font-weight: 400;
+	color: #ccc;
+}
+
 /*This is for links within the intro*/
 /* .intro p a {
   color: #012;
