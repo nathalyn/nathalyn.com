@@ -250,7 +250,10 @@ li {
 }
 
 
+
+
 .project-small {
+
   display: inline-block;
   min-width: 240px;
   /* padding: 2% 0%; */
@@ -293,6 +296,10 @@ li {
 
 }
 
+
+.post-item h3 {
+	letter-spacing: 1.5px;
+}
 .project-text {
   float: left;
   text-align: left;
@@ -336,7 +343,12 @@ li {
   text-transform: capitalize;
   font-weight: 300;
   padding-top: 10%;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
+}
+
+.case-study h2 {
+	letter-spacing: 2px;
+	font-weight: 400;
 }
 
 .case-study section {
@@ -349,11 +361,20 @@ li {
   padding-bottom: 2%;
   text-transform: uppercase;
 }
+.top-divider {
+	margin-top: 2%;
+	margin-bottom: 10%;
+}
 
 /*
 .case-text {
 
 } */
+
+.case-text {
+	margin: 3% 0;
+}
+
 
 .case-text p {
   font-size: 1.2em;
