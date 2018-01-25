@@ -50,13 +50,25 @@ table {
 
 body {
   background-color: #fcfcfc;
-  font-family: 'Lato', sans-serif;
-  color: #222;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #333;
 	-webkit-font-smoothing: subpixel-antialiased;
 	-moz-osx-font-smoothing: auto;
   text-rendering: optimizeLegibility;
   font-feature-settings: "kern";
   font-kerning: normal;
+
+}
+
+#particles-js {
+	/* width: 800px;
+	height:800px; */
+	position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:-3;
 
 }
 
@@ -70,7 +82,7 @@ a {
 }
 
  a:hover {
-  color: #222;
+  color: #333;
 }
 
 em {
@@ -111,7 +123,11 @@ li {
   text-decoration: none;}
 } */
 
+.nav {
+	max-width: 960px;
+	margin: 0 auto;
 
+}
 .nav .nav-right .menu {
   display: inline-block;
   text-align: right;
@@ -134,15 +150,15 @@ li {
 }
 
 .menu-item a {
-  color: #c0c4cC;
+  color: #ccc;
 }
 
 .menu-item a:hover {
-  color: #222;
+  color: #333;
 }
 
 .current-page a {
-	color: #222;
+	color: #333;
 }
 
 .content {margin: 0 10%;}
@@ -172,7 +188,7 @@ li {
 
 .intro a {
 	font-weight: 400;
-	color: #222;
+	color: #333;
 }
 
 .intro a:hover {
@@ -270,6 +286,7 @@ li {
 }
 
 .project-small:hover {
+	background-color: #fcfcfc;
   box-shadow: 0px 0px 10px #ddd;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
@@ -373,7 +390,7 @@ li {
 } */
 
 .case-text {
-	margin: 3% 0;
+	margin: 5% 0;
 }
 
 
