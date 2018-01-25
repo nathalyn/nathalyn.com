@@ -63,7 +63,7 @@ body {
 #particles-js {
 	/* width: 800px;
 	height:800px; */
-	position:fixed;
+	position: fixed;
   top:0;
   right:0;
   bottom:0;
@@ -151,7 +151,10 @@ li {
 
 .menu-item a {
   color: #ccc;
+
 }
+
+
 
 .menu-item a:hover {
   color: #333;
@@ -170,7 +173,7 @@ li {
 }
 
 .intro h1 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-align: left;
   color: #333;
   letter-spacing: 0.01em;
@@ -331,7 +334,7 @@ li {
   line-height: 1.5;
   color: #333;
   letter-spacing: .01em;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 300;
 }
 
