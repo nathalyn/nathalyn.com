@@ -61,8 +61,8 @@ body {
 }
 
 #particles-js {
-	/* width: 800px;
-	height:800px; */
+	width: 800px;
+	height:400px;
 	position: fixed;
   top:0;
   right:0;
