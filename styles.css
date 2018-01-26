@@ -641,14 +641,16 @@ hr {
 }
 
 .bio-title {
-	font-
+
 	padding-bottom: 5%;
+	font-size: 2.0em;
 }
 
 .bio-copy {
 	font-weight: 300;
 	padding-bottom: 5%;
 	line-height: 1.6;
+	font-size: 1.2em;
 
 }
 
