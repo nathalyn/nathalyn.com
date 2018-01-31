@@ -1,4 +1,17 @@
 
+$(document).ready(function(){
+    $(".case-small").hover(function(){
+        $(this).css("background-color", "yellow");
+        }, function(){
+        $(this).css("background-color", "inherit");
+    });
+});
+
+
+
+
+
+
 particlesJS("particles-js", {
   "particles": {
     "number": {

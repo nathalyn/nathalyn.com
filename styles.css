@@ -60,16 +60,27 @@ body {
 
 }
 
+/* #upper-home {
+	position: fixed;
+} */
+
+
+
+
 #particles-js {
 	width: 800px;
-	height:400px;
+	height: inherit;
 	position: fixed;
-  top:0;
+  top:20px;
   right:0;
   bottom:0;
   left:0;
   z-index:-3;
 
+}
+
+#particles:hover {
+	color: red;
 }
 
 a {
@@ -84,6 +95,7 @@ a {
  a:hover {
   color: #333;
 }
+
 
 em {
   font-style: oblique;
@@ -146,15 +158,13 @@ li {
 
 .menu-item {
   padding-left: 16px;
-  display: inline-block;
+  display: inline;
 }
 
 .menu-item a {
   color: #ccc;
-
+	display: inline-block;
 }
-
-
 
 .menu-item a:hover {
   color: #333;
@@ -164,7 +174,8 @@ li {
 	color: #333;
 }
 
-.content {margin: 0 10%;}
+.content {margin: 0 10%;
+z-index: 4;}
 
 .intro {
   max-width: 960px;
@@ -382,6 +393,13 @@ li {
   padding-bottom: 2%;
   text-transform: uppercase;
 }
+
+.case-study h4 {
+	font-weight: 400;
+	font-size: 1.3em;
+	padding-bottom: 1%;
+}
+
 .top-divider {
 	margin-top: 2%;
 	margin-bottom: 10%;
@@ -666,12 +684,19 @@ hr {
 .bio-photo {
 	width: 47%;
 	max-width: inherit;
+	max-height: 600px;
 	float: right;
+	overflow: hidden;
+
 }
 
 .myphoto {
 	border-radius: 0px;
 	box-shadow: 0px 5px 25px #ddd;
+	max-width: 400px;
+
+
+
 }
 
 .clearfix::after {
