@@ -1,11 +1,11 @@
-
-$(document).ready(function(){
-    $(".case-small").hover(function(){
-        $(this).css("background-color", "yellow");
-        }, function(){
-        $(this).css("background-color", "inherit");
-    });
-});
+// 
+// $(document).ready(function(){
+//     $("#remodelmateid").hover(function(){
+//         $("#particles-js").js("color", "green");
+//         }, function(){
+//         $("#particles-js").json("color", "white");
+//     });
+// });
 
 
 
@@ -45,7 +45,7 @@ particlesJS("particles-js", {
       }
     },
     "size": {
-      "value": 3.5,
+      "value": 4,
       "random": false,
       "anim": {
         "enable": true,

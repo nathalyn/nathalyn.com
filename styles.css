@@ -70,18 +70,18 @@ body {
 #particles-js {
 	width: 800px;
 	height: inherit;
-	position: fixed;
+	position: absolute;
   top:20px;
   right:0;
   bottom:0;
   left:0;
-  z-index:-3;
+  z-index:-20;
 
 }
 
-#particles:hover {
-	color: red;
-}
+
+
+
 
 a {
   -o-transition:200ms;
@@ -131,6 +131,16 @@ h3 {
 li {
   display: inline-block;
 }
+
+
+#remodelmateid:hover {
+	#particles-js {
+		color { value:green;}
+	}
+
+}
+
+
 /* a {
   text-decoration: none;}
 } */
@@ -373,9 +383,17 @@ z-index: 4;}
 .case-title {
   font-size: 3em;
   text-transform: capitalize;
-  font-weight: 300;
-  padding-top: 10%;
-  padding-bottom: 2%;
+  font-weight: 400;
+  padding-top: 2%;
+  padding-bottom:0;
+}
+
+.case-study h3 {
+	font-size: 1.5em;
+	letter-spacing: 1.1px;
+	font-weight: 300;
+	padding-bottom: 2%;
+	text-transform: uppercase;
 }
 
 .case-study h2 {
@@ -394,6 +412,14 @@ z-index: 4;}
   text-transform: uppercase;
 }
 
+.role  {
+	font-size: 1.5em;
+	font-weight: 200;
+	padding-bottom: 2%;
+	text-transform: uppercase;
+}
+
+
 .case-study h4 {
 	font-weight: 400;
 	font-size: 1.3em;
@@ -402,7 +428,7 @@ z-index: 4;}
 
 .top-divider {
 	margin-top: 2%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 /*
