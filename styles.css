@@ -487,6 +487,10 @@ z-index: 4;}
 	margin: 0 auto;
 }
 
+.pic-too-small {
+	width: 100%;
+}
+
 
 .small-pic {
 	display: block;
