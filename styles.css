@@ -592,8 +592,8 @@ z-index: 4;}
 
 hr {
     display: block;
-    margin-top: 6em;
-    margin-bottom: 6em;
+    margin-top: 10%;
+    margin-bottom: 10%;
     border-style: inset;
     border-width: .5px;
     border-color: #ccc;
@@ -602,8 +602,12 @@ hr {
 /**************PROJECT PREVIEWS*************/
 
 .preview-section {
-  margin: 0 auto%;
+  /* margin-bottom: 10%; */
+	margin: 2% 10% 10% 10%;
 
+}
+.preview-section h3 {
+  font-size: 1.5em;
 }
 
 
