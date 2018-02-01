@@ -592,8 +592,8 @@ z-index: 4;}
 
 hr {
     display: block;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     border-style: inset;
     border-width: .5px;
     border-color: #ccc;
@@ -603,11 +603,12 @@ hr {
 
 .preview-section {
   /* margin-bottom: 10%; */
-	margin: 2% 10% 10% 10%;
+	margin: 2% 10% 5% 10%;
 
 }
 .preview-section h3 {
   font-size: 1.5em;
+	padding-bottom: 2%;
 }
 
 
@@ -795,6 +796,43 @@ hr {
 		font-weight: 300;
 	}
 
+/******project previews******/
+
+	/* .project-list .project-preview {
+	  float: left
+
+
+	  padding:5%;
+	  /* margin: 0 auto; */
+	  width: inherit;
+		margin: 0 auto;
+	} */
+
+	.project-list .project-pic {
+	  overflow: hidden;
+		max-width: inherit;
+	}
+
+	.preview-section .post-item {
+		display: block;
+		float: left;
+		width: inherit;
+	}
+
+	.project-preview h3 {
+	  font-size: 1em;
+	  position: relative;
+	  line-height: 1.3;
+	}
+
+	.project-preview h2 {
+	  font-size: 1.7em;
+	  position: relative;
+	  padding-bottom: 8%;
+
+	}
+
+
 
 
 @media screen and (max-width: 600px) {
@@ -853,6 +891,47 @@ hr {
  .post-img img {
    min-width: 100%;
  }
+
+
+
+ .project-list .project-preview {
+ 	display: block;
+ 	padding:5%;
+ 	/* margin: 0 auto; */
+ 	width: inherit;
+ 	margin: 0 auto;
+	min-width: 100%
+ }
+
+ .project-list .project-pic {
+ 	overflow: hidden;
+ 	max-width: inherit;
+	display: block;
+ }
+
+ .preview-section .post-item {
+ 	display: block;
+ 	float: left;
+ 	width: inherit;
+	min-width: 100%
+ }
+
+ .project-preview h3 {
+ 	font-size: 1em;
+ 	position: relative;
+ 	line-height: 1.3;
+ }
+
+ .project-preview h2 {
+ 	font-size: 1.7em;
+ 	position: relative;
+ 	padding-bottom: 8%;
+
+ }
+
+
+
+
 
 
  }
