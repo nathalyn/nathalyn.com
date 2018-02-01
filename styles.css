@@ -519,6 +519,12 @@ z-index: 4;}
 }
 
 
+.more-vertical-padding {
+	padding-bottom: 10% ;
+}
+
+
+
 /**********For Image Galleries***********/
 
 .row {
