@@ -68,7 +68,7 @@ body {
 
 
 #particles-js {
-	width: 800px;
+	width: inherit;
 	height: inherit;
 	position: absolute;
   top:20px;
