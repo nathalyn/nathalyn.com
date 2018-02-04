@@ -650,7 +650,7 @@ hr {
   /* max-height: 96px;
   padding: 5% 0;
   /* margin: 0 auto; */
-  min-width: 30%;
+  min-width: inherit;
 	/* margin: 0 10%; */
 	padding: 10 10%;
 
@@ -664,7 +664,7 @@ hr {
 
  .preview-section .post-item {
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	/* max-height: 100%; */
 	max-width: 40%;
 	/* min-width: 30%; */
@@ -864,7 +864,7 @@ hr {
 
 
 
- .preview-section .post-item {
+ .preview-section .project-preview-container .post-item {
   display: block;
   /* float: left; */
   /* max-height: 100%; */
@@ -909,7 +909,7 @@ hr {
  }
 
  .project-preview h2 {
- 	font-size: 1.7em;
+ 	font-size: 1.2em;
  	position: relative;
  	padding-bottom: 8%;
 
