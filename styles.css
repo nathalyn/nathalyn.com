@@ -618,6 +618,10 @@ hr {
 }
 
 
+.project-preview-container {
+
+}
+
 .preview-section h3 {
   font-size: 1.7em;
   /* line-height: 1; */
@@ -638,16 +642,17 @@ hr {
 
 }
 
-.project-list .project-preview {
+.project-preview-container .project-preview {
 	display: inline-block;
-  float: left;
-  max-width: 50%;
-	max-height: 50%;
-  /* max-height: 96px; */
+  /* float: left;*/
+
+	/* max-height: 50%; */
+  /* max-height: 96px;
   padding: 5% 0;
   /* margin: 0 auto; */
   min-width: 30%;
-	margin: 0 10%;
+	/* margin: 0 10%; */
+	padding: 10 10%;
 
 }
 
@@ -657,20 +662,17 @@ hr {
 }
 
 
-
-.preview-section .post-item {
+ .preview-section .post-item {
 	display: inline-block;
 	float: left;
-	max-height: 100%;
+	/* max-height: 100%; */
 	max-width: 40%;
-	min-width: 30%;
+	/* min-width: 30%; */
 	margin: 10px;
 	/* padding: 2%; */
 
 
 }
-
-
 
 
 .project-preview {
@@ -862,18 +864,29 @@ hr {
 
 
 
- .project-list .project-preview {
+ .preview-section .post-item {
+  display: block;
+  /* float: left; */
+  /* max-height: 100%; */
+  max-width: 100%;
+  /* min-width: 30%; */
+  margin: 10px;
+  /* padding: 2%; */
+ }
+
+
+ .project-preview-container .project-preview {
  	display: block;
- 	padding:5%;
- 	margin: 0 auto;
+ 	padding: 5%;
+ 	margin: 0 10%;
  	width: inherit;
  	/* margin: 0 auto; */
-	max-width: 100%;
-	float: left;
+	/* max-width: 60%; */
+	/* float: left; */
 
  }
 
- .project-list .project-pic {
+ .project-preview-container .project-pic {
  	overflow: hidden;
  	max-width: 100%;
 	display: block;
@@ -883,7 +896,9 @@ hr {
  	display: block;
  	float: left;
  	width: inherit;
-	min-width: 100%
+	min-width: 40%;
+	max-width: 40%;
+	margin: 0 auto;
 
  }
 
@@ -962,12 +977,12 @@ hr {
  @media screen and (max-width: 700px) {
 
 
- 	.post-item h2 {
+ 	/* .post-item h2 {
  		padding-left: 4% 0;
  		padding-bottom: 4%;
  		font-size: 1.3em;
 
- 	}
+ 	} */
 
  	h3 {
  	  text-transform: uppercase;
@@ -1007,8 +1022,8 @@ hr {
  		width: inherit;
  	}
 
- 	.project-preview h3 {
- 	  font-size: 1em;
+ 	.project-preview-container .post-item .project-preview h3 {
+ 	  font-size: .8em;
  	  position: relative;
  	  line-height: 1.3;
  	}
