@@ -581,6 +581,9 @@ z-index: 4;}
     transform: scale(1.05);
 }
 
+
+
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 740px) {
   .column {
@@ -599,6 +602,13 @@ z-index: 4;}
     max-width: 100%;
   }
 }
+
+
+
+
+
+
+
 
 hr {
     display: block;
@@ -736,6 +746,15 @@ hr {
 
 .email-icon, .email-link a {
 	color: #222;
+}
+
+.resume-link a {
+	color: #222;
+
+}
+
+.resume-link {
+	padding:5% 0;
 }
 
 .bio-photo {
