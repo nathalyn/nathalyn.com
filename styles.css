@@ -487,6 +487,15 @@ z-index: 4;}
 	margin: 0 auto;
 }
 
+
+.pic-way-too-big {
+	max-width: 300px;
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+
+
 .pic-too-small {
 	width: 100%;
 }
