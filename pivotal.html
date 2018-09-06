@@ -46,12 +46,12 @@
                   <h2 class="case-subtitle">overview</h2>
                   <p>Pivotal helps companies deliver exceptional user experiences through adoption of platform, tools and methodology. 
                     In summer of 2018 I joined Pivotal Cloud Foundry, the cloud-native platform that enables Pivotal's customor companies to build 
-                    stable, secure software quickly, efficiently and at scale.
+                    stable, secure software quickly, efficiently, and at scale.
                    
                     
                     </p>
                     <p>I worked on Apps Manager, the web interface product that developers and operators use to manage and monitor apps that are deployed on Cloud Foundry.
-                     My role was working directly with a product management intern to explore opportunities to improve Apps manager through
+                     My role was working directly with a product management intern to explore opportunities to improve Apps Manager through
                      research-driven product strategy. I also completed interaction and visual design for these solutions.</p>
 
             
@@ -60,17 +60,18 @@
 
                 <section class="case-text">
                   <h2 class="case-subtitle">The Problem</h2>
-                  <p>Pivotal Cloud Foundry is expanding at a rapid pace - and so are the companies who run on it. While Apps Manager functionality expands just in time with PCF's growth and cudtomer needs,
+                  <p>Pivotal Cloud Foundry is expanding at a rapid pace - and so are the companies who run on it. While Apps Manager features expand just in time with PCF's growth and customer needs,
                     it's user experience wasn't ideal for companies at scale. Finding and managing apps in a foundations containing a hundred to a thousand apps
                     became difficult for an interface that wasn't built for that much volume, so our challenge was to create a solution to help users navigate their foundation so that they can find the apps they need.
+                    We started off asking important questions to understand this problem more:
                       <h4>How much of a pain-point is the information architecture of AM? How does navigation help or impede user flows? How can we optimize this for current users?</h4>
                     </p>
 
 
-                    <h2 class="case-subtitle">Information Architecture Defined</h2>
+                    <h2 class="case-subtitle">Apps Manager Information Architecture Defined</h2>
                   <p>Improving the <span class="bold">information architecture</span> of Apps Manager meant improving the experience of app developers and app operators going through their different workflows in the hierarchy of apps, spaces and orgs.
-                      Working on the <span class="bold">navigation</span> consists of design the UI components necessary to navigate these flows.
-                      <h4>How much of a pain-point is the information architecture of AM? How does navigation help or impede user flows? How can we optimize this for current users?</h4>
+                      Working on the <span class="bold">navigation</span> consisted of designing the UI components necessary to navigate these flows.
+                      
                     </p>
 
                 </section>
@@ -93,13 +94,13 @@
                 <section class="case-text">
                   <h2 class="case-subtitle">Discovering User Painpoints
                   </h2>
-                  <p>While we knew that some parts of the information architecture affected user experience it was difficult to understand the experiences of our specific user group without doing more research into who used Apps Manager for what tasks.
-                    After speaking with teams working on related products, user proxies and product management, we found that our users were split into two groups: <span class="bold">app developers and app operators.</span> </p>
+                  <p>While we knew that some parts of the information architecture affected user experience it was difficult to understand the experiences of our specific user groups without doing more research into who used Apps Manager for what tasks.
+                    After speaking with teams working on related products, user proxies (like those in Field) and product management, we found that our users were split into two groups: <span class="bold">app developers and app operators.</span> </p>
 
 
-                    <section>
+                    <!-- <section>
                       <img class="case-img" src="images/pivotal/ms-preview.png">
-                    </section>
+                    </section> -->
                     <!-- This is a graphic for our user groups and their functions -->
                       <h4 class="bold mini-subtitle">Key Research Goals</h4>
                       <p>After understanding who was using Apps Manager, we focused our research by asking key questions about how they work, their painpoints and their needs.</p>
@@ -112,8 +113,7 @@
                         <img class="case-img" src="images/rmate-personas.png">
                       </section> -->
                       <h4 class="bold mini-subtitle">Insights, Painpoints, and Actions</h4>
-                  <p>Improving the information architecture of Apps Manager meant improving the experience of going through these different workflows and global navigations - so for 
-                    each interviewee we collected key insights, observed moments of pain and ideated actions that could address them.
+                  <p> We conducted verbal and interactive interviews with users we categorized by experience with Apps Manager and frequency of use to gather key insights, observe moments of pain and to ideate actions that could address them.
                   </p>
                       </section>
 
@@ -123,8 +123,8 @@
 
                 <section class="case-text">
                 <h2 class="case-subtitle">Converging to Find Problem Statements</h2>
-                <p>From each interview we gathered insights and painpoints, and converged on ones that were recurring throughout our
-                    interviews through affinity mapping. 
+                <p>We then converged on insights and painpoints that were recurring throughout our
+                    interviews through affinity mapping. By doing this we were able to generate our main problem statements.
                 </p>
               
                     <section>
@@ -132,7 +132,7 @@
                         </section>
 
                         <h2 class="case-subtitle">Prioritizing Problems with High Returns</h2>
-                        <p>We narrowed the problems we wanted to focus on by prioritizing them based on level of user pain-point and technical feasability.
+                        <p>We narrowed the problems we wanted to focus on by prioritizing them based on level of user pain and technical feasability.
                           After sorting, we then took the problems with the highest painpoints and highest feasbility (top right wuadrant) and our product team voted based on importance.
                         </p>
                       
@@ -142,7 +142,7 @@
 
                         <p>In the end were able to isolate the most prevelant and important problems:
                           <ul>
-                            <li><span class="bold">It is a challenge to find specific spaces/orgs in an scaled environment</span></li>
+                            <li><span class="bold">It's hard to find specific spaces/orgs in an scaled environment</span></li>
                             <li><span class="bold">It is difficult to search and browse for spaces/orgs in sidenav</span></li>
                             <li><span class="bold">Starting from the org state does not cater well to the primary use cases of developers</span></li>
                             <li><span class="bold">Users struggle to orient themselves and navigate from their current state.</span></li>
@@ -180,23 +180,23 @@
                       <h2 class="case-subtitle">Converging on Solutions with Goals</h2>
                       <p>After brainstorming, there was a huge pool of ideas to consider. To narrow down what we 
                           would focus on, we determined goals that we would use as metrics of effectiveness/success of
-                          a solution concept.
+                          a solution concept (listed from top to bottom, in order of importance).
                       </p>
 
                       <section>
                           <img class="case-img pic-too-big" src="images/pivotal/goals.png">
                         </section>
-                      <p>With this in nmind, I sketched different combinations of features that could create a wholistic solution by 
-                          matching up solutions with the problem that I expected it to solve. Throughout this process I constantly looped in both the product 
+                      <p>With this in nmind, I sketched different combinations of features that could create a wholistic solution. I then 
+                          matched up solutions with the problem that I expected each one to solve, and noted points of overlap. Throughout this process I constantly looped in both the product 
                           and engineering teams for feedback on the usabilty, effectiveness, feasbility, and if they were accomplishing the set goals. 
                       </p>
                           <section>
                                 <img class="case-img" src="images/pivotal/soln-converge.png">
                               </section>
-
+<!-- 
                               <section>
                                 <img class="case-img" src="images/rmate-user-flows.png">
-                              </section>
+                              </section> -->
 
                                 </section>
 
@@ -205,21 +205,18 @@
                           
                            <h4>Make Apps Manager app-centric
                            </h4>
-                            <p>During our brainstorming we realized that an unsaid but equally important pain-point was being left out: developers 
-                                spent a lot of time getting to their apps despite that being their main area of work. This was something we realized after going through
-                                our concepts in ideation, and so we added this to our problem statements.
+                            <p>We found that one of our main user groups, developers, primarily use Apps Manager at the app level. This is because many of their primary functions
+                              (like binding apps to service instances, or like trouble shooting) takes place at the app level. 
                           </p>
                           
                           <h4>Hierarchy navigation as a complete, separate experience</h4>
-                          <p>During our brainstorming we realized that an unsaid but equally important pain-point was being left out: developers 
-                              spent a lot of time getting to their apps despite that being their main area of work. This was something we realized after going through
-                              our concepts in ideation, and so we added this to our problem statements.
+                          <p>Due to the sheer size of foundations, it became apprent that we should be focusing on navigation as it's own experience instead of a add-on to the 
+                            current layout. This means there should be a quick way to access a full list of spaces and orgs, along with navigation tools to help find specific ones quickly. 
                         </p>
 
                         <h4>Create access to a higher-level hierarchy: the foundation</h4>
-                        <p>During our brainstorming we realized that an unsaid but equally important pain-point was being left out: developers 
-                            spent a lot of time getting to their apps despite that being their main area of work. This was something we realized after going through
-                            our concepts in ideation, and so we added this to our problem statements.
+                        <p>The other main user group that uses Apps Manager are those with more administrative access - app operators. They need higher level perspectives to manage whole foundations, permissions
+                          services and more. Creating access to a foundation level would also be in sync with the overall product direction for Apps Managers CLI counterpart, and with the main API, CAPI.
                       </p>
 
                           </section>
@@ -227,9 +224,8 @@
 
                       <section class="case-text">
                           <h2 class="case-subtitle">The Features</h2>
-                          <p>I sketched different combinations of features that could create a wholistic solution by 
-                              matching up solutions with the problem that I expected it to solve. Throguhout this process I constantly looped in both the product 
-                              and engineering teams for feedback on the usabilty, effectiveness and feasability for the concepts. 
+                          <p>After sketching and converging on solutions, I listed out the specific features/components that needed to be included in the new design, and communicated with our engineering team to 
+                            find best ways of executing them.
                           </p>
                           <section>
                               <img class="case-img" src="images/pivotal/features.png">
@@ -240,7 +236,7 @@
                       <section class="case-text">
                       <h2 class="case-subtitle">Wireframing Concepts</h2>
                       <p>After trying several combinations, I took the concepts to wireframes to scope out interactions/components in higher detail. I iterated several times in wireframes as well,
-                          and this eventually led me from a flow similar to our current I.A. with additoin features to a more app-centric, functional navigation and globally accessible version of 
+                          and this eventually led me from a flow similar to our current I.A. with additional features to a more app-centric, functional navigation and globally accessible version of 
                           Apps Manager.
                       </p>
                       <section>
@@ -252,13 +248,12 @@
 
                 <section class="case-text">
                   <h2 class="case-subtitle">Early Hi-fi Concepts</h2>
-                  <p>I started off sketching rough ideas for a simple, easy-to-use and modern layout for the website.
+                  <p>This was the first iteration of the hi-fi mockup we started with. Features like Recent Apps and Apps Overview are implemented to cater top developers, while features like Foundation-level hierarchy helps app operators.
                       </p>
                     <section>
                         <img class="case-img" src="images/pivotal/first-hifi.png">
                       </section>
-                      <p>Having a clean and open layout was important for clarity and ease-of-use, we planned to
-                          approach redesign to be as concise as possible to meet the user needs of fully understanding the product.</p>
+                      <p>This view shows a concept with fly-out navigation that reduces the issue of a long, near-eternal list of spaces and focuses on the navigation as its own experience.</p>
                             </section>
                             <section>
                                 <img class="case-img" src="images/pivotal/second-hifi.png">
@@ -275,8 +270,7 @@
                                   </section>
 
                                   <h4>Rethinking Apps Overview</h4>
-                                      <p>By using user testing as a baseline, we learned that some components needed to be rethought to become more usable in our current solution. For example, the 
-                                        search bar which was originally only for apps now searched globally, so in the new solution it had to be optimized for different types of results.
+                                      <p>A major feature we learned wasn't so effective during testing was Apps Overview. We did a design sprint with the whole team to re-examine it's purpose, and what information to display to make it more useful for customers.
                                       </p>
                                       <section>
                                             <img class="case-img" src="images/pivotal/before.png">
@@ -290,8 +284,7 @@
                             </section>
                 <section class="case-text">
                     <h2 class="case-subtitle">Final Designs</h2>
-                    <p>These are a few early iterations of the Get Inspired and Project Builder features. Changes were made over time to improve usability, clarity
-                      and consistency for users (and we're still learning more now!)
+                    <p>After testing we refined the designs further, and combined all of the components together.
                     </section>
                     <section>
                         <img class="case-img" src="images/pivotal/first-final.png">
@@ -305,8 +298,7 @@
 
                         <section class="case-text">
                           <h2 class="case-subtitle">Measuring Success</h2>
-                          <p>These are a few early iterations of the Get Inspired and Project Builder features. Changes were made over time to improve usability, clarity
-                            and consistency for users (and we're still learning more now!)
+                          <p>We revisited our initial goals and problem statements and determined if each new feature solved them or not. While no one solution completely scored perfectly, a combination of all of them created a well-rounded solution. 
                           </section>
                           <section>
                               <img class="case-img" src="images/pivotal/measuring-success.png">
@@ -315,8 +307,7 @@
       
                             <section class="case-text">
                                 <h2 class="case-subtitle">Areas of Improvement</h2>
-                                <p>These are a few early iterations of the Get Inspired and Project Builder features. Changes were made over time to improve usability, clarity
-                                  and consistency for users (and we're still learning more now!)
+                                <p>Apps Overview still has some points that could use improvement. It's up to more iteration to determine how this can feel more like an overview and less like a list of random apps.
                                 </section>
                                 <section>
                                     <img class="case-img" src="images/pivotal/improve.png">
