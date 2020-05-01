@@ -725,8 +725,8 @@ hr {
 
 .about-content{
 	display: block;
-	margin:2%;
-	padding: 0 3%;
+	margin:4% 0 0 4%;
+	/* padding: 0 0 0 3%; */
 }
 .bio-info {
 	width: 47%;
@@ -747,6 +747,13 @@ hr {
 	font-size: 1.2em;
 
 }
+
+.bio-copy a {
+	color: #222;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
 
 .social .contact {
 	display: block;
@@ -772,17 +779,20 @@ hr {
 	max-height: 600px;
 	float: left;
 	overflow: hidden;
-	padding-left:  10%;
+	padding: 2% 5% 10% 10%;
 
 }
 
 .myphoto {
 	border-radius: 0px;
-	box-shadow: 0px 5px 25px #ddd;
+	box-shadow: -7px 10px 27px #ddd;
 	max-width: 400px;
 
 
 
+}
+ .bold {
+  font-weight: 400;
 }
 
 .clearfix::after {
@@ -982,14 +992,15 @@ hr {
  	max-width: inherit;
  	max-height: 600px;
  	float: right;
- 	overflow: hidden;
-
+   overflow: hidden;
+   box-shadow: 0px 25px 35px #ddd;
+   padding: 0%;
  }
 
  .myphoto {
  	border-radius: 0px;
- 	box-shadow: 0px 5px 25px #ddd;
- 	max-width: 400px;
+ 	/* padding: 0 2% 10% 10%; */
+ 	max-width: 500px;
 
 
 
@@ -1035,7 +1046,7 @@ hr {
 
  	  padding:5%;
  	  /* margin: 0 auto; */
- 	  width: inherit;
+ 	  /*width: inherit;
  		margin: 0 auto;
  	} */
 
@@ -1064,14 +1075,50 @@ hr {
  	}
 
 
+   .bio-info {
+    width: 100%;
+    max-width: inherit;
+    float: left;
+  }
+
+  .bio-title {
+
+    padding-bottom: 5%;
+    font-size: 2.0em;
+  }
+
+  .bio-copy {
+    font-weight: 300;
+    padding-bottom: 5%;
+    line-height: 1.6;
+    font-size: 1.2em;
+
+  }
+
+  .social .contact {
+    display: block;
+    width: inherit;
+  }
+
+  .email-icon, .email-link a {
+    color: #222;
+  }
+
+  .bio-photo {
+    width: 100%;
+    max-width: inherit;
+    max-height: 600px;
+    float: right;
+    overflow: hidden;
+    box-shadow: 0px 25px 35px #ddd;
+    padding: 0%;
+  }
+
+  .myphoto {
+    border-radius: 0px;
+    /* padding: 0 2% 10% 10%; */
+    max-width: 500px;
 
 
- 	.bio-copy {
- 	 font-weight: 300;
- 	 padding-bottom: 5%;
- 	 line-height: 1.6;
- 	 font-size: 1.2em;
 
- 	}
-
- }
+  }

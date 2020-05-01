@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131761375-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131761375-1');
+</script>
+
+
+
     <meta charset="UTF-8">
     <meta http-equiv="cleartype" content="on" />
     <title>Nathalyn Nunoo</title>
@@ -35,11 +48,11 @@
           <article class="case-study">
             <section class="case-header">
               <h1 class="case-title">Pivotal Cloud Foundry</h1>
-              <h3 class="case-subtitle">Product Design, Iteraction</h3>
+              <h3 class="case-subtitle">Product Design, Interaction</h3>
             </section>
             <hr class="top-divider">
             <section>
-                  <img class="case-img" src="images/pivotal/am-preview.png">
+                  <img class="case-img" src="images/pivotal/am-preview1.png">
                 </section>
 
                 <section class="case-text">
@@ -123,14 +136,14 @@
                       </section>
 
                       <section>
-                        <img class="case-img pic-too-big" src="images/pivotal/Users.jpg">
+                        <img class="case-img pic-too-big" src="images/pivotal/users.png">
                       </section>
                       
                       <section class="case-text">
                     
                        <p>In interviews and intitial tests, we found some patterns in how users responded.</p>
                       <section>
-                          <img class="case-img" src="images/pivotal/quotes.jpg">
+                          <img class="case-img pic-too-big" src="images/pivotal/quotes1.png">
                         </section>
                         </section>
 
@@ -141,7 +154,7 @@
                 </p>
               
                     <section>
-                          <img class="case-img" src="images/pivotal/Prob-statements.jpg">
+                          <img class="case-img" src="images/pivotal/Prob_statements.png">
                         </section>
                         </section>
                         <section class="case-text">
@@ -193,7 +206,7 @@
                             </p>
                                 </section>
                                 <section>
-                                    <img class="case-img" src="images/pivotal/New-prob-statements.jpg">
+                                    <img class="case-img" src="images/pivotal/New-prob-statements.png">
                                   </section>
 
                     <section class="case-text">
@@ -203,7 +216,7 @@
                           a solution concept (listed from top to bottom, in order of importance).
                       </p>
                       <section>
-                          <img class="case-img pic-too-big" src="images/pivotal/goals.png">
+                          <img class="case-img pic-too-big" src="images/pivotal/goals1.png">
                         </section>
                       <!-- <p>With this in mind, I sketched different combinations of features that could create a wholistic solution. I then 
                           matched up solutions with the problem that I expected each one to solve, and noted points of overlap. Throughout this process I constantly looped in both the product 
@@ -236,8 +249,8 @@
                           
                            <h4>Make Apps Manager app-centric
                            </h4>
-                            <p>We found that one of our main user groups, developers, primarily use Apps Manager at the app level. This is because many of their primary functions
-                              (like binding apps to service instances, or like trouble shooting) takes place at the app level. 
+                            <p>Developers primarily use Apps Manager at the apps level of hierarchy because many of their primary functions
+                              (like binding apps to service instances, or like trouble shooting) takes place at the app level. We optimized for these workflows through the<span class="bold"> Recent Apps</span> and <span class="bold">Apps Overview </span>features. 
                           </p>
 
                           <section>
@@ -250,15 +263,15 @@
                           
                           <h4>Hierarchy navigation as a complete, separate experience</h4>
                           <p>Due to the sheer size of foundations, it became apprent that we should be focusing on navigation as it's own experience instead of a add-on to the 
-                            current layout. This means there should be a quick way to access a full list of spaces and orgs, along with navigation tools to help find specific ones quickly. 
+                            current layout. Using a <span class="bold"> side navigation flyout</span> gives users a quick way to access a full list of spaces and orgs, along with navigation tools to help find specific ones.
                         </p>
                         <section>
                             <img class="case-img" src="images/pivotal/sidenav.png">
                           </section>
 
                         <h4>Create access to a higher-level hierarchy: the foundation</h4>
-                        <p>The other main user group that uses Apps Manager are those with more administrative access - app operators. They need higher level perspectives to manage whole foundations, permissions
-                          services and more. Creating access to a foundation level would also be in sync with the overall product direction for Apps Managers CLI counterpart, and with the main API, CAPI.
+                        <p>App operators, who tend to take admin roles, need higher level perspectives to manage entire foundations, user permissions, storage, 
+                          services and more. Creating access to a foundation level through a <span class="bold">Foundation Page </span> furthers this access, and is in sync with the overall product direction for Cloud Foundry.
                       </p>
 
                       <section>
@@ -272,7 +285,7 @@
                               
                             </p>
                             <section>
-                                <img class="case-img" src="images/pivotal/other-solns.jpg">
+                                <img class="case-img" src="images/pivotal/other-solns.png">
                               </section>
                             
                           </section>
@@ -312,14 +325,20 @@
                                 search bar which was originally only for apps now searched globally, so in the new solution it had to be optimized for different types of results.
                               </p>
                               <section>
-                                    <img class="case-img" src="images/pivotal/components.jpeg">
+                                <img class="case-img" src="images/pivotal/dropdown-comp.png">
+                              </section>
+                              <section>
+                                    <img class="case-img pic-too-big" src="images/pivotal/recent-apps-comp.png">
+                                  </section>
+                                  <section>
+                                    <img class="case-img pic-too-big" src="images/pivotal/other-comp.png">
                                   </section>
 
                                   <h4>Rethinking Apps Overview</h4>
                                       <p>A major feature we learned wasn't so effective during testing was Apps Overview. We did a design sprint with the whole team to re-examine it's purpose, and what information to display to make it more useful for customers.
                                       </p>
                                       <section>
-                                            <img class="case-img" src="images/pivotal/AO-transformation.png">
+                                            <img class="case-img" src="images/pivotal/AO-redesign.png">
                                           </section>
 
         
